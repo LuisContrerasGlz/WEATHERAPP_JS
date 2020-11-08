@@ -8,3 +8,5 @@ When User searches for a city and clicks enter the application will get the info
 The information is been retrieved from the API home.openweathermap
 
 Work based from Tyler Potts.
+
+URL for GitHub pages: https://luiscontrerasglz.github.io/WEATHERAPP_JS/
