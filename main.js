@@ -51,11 +51,14 @@ const api = {
    // $("#navp").empty();
 
 
-    for(var i=0;i<mCityList.length;i++){
-        var elem = document.createElement("li");
-        elem.textContent=mCityList[i];
-        mainList.appendChild(elem); 
-   }
+    //for(var i=0;i<mCityList.length;i++){
+    //    var elem = document.createElement("li");
+    //    elem.textContent=mCityList[i];
+    //    mainList.appendChild(elem); 
+   //}
+   var elem = document.createElement("li");
+    elem.textContent=mCityList[mCityList.length-1];
+    mainList.appendChild(elem); 
   }
 
   //Creating the date builder function 
