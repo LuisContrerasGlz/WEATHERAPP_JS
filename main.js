@@ -47,19 +47,17 @@ const api = {
     hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 
     mCityList.push(cityvalue);
-    document.getElementById("demo").innerHTML = mCityList;
+   // document.getElementById("demo").innerHTML = mCityList;
+   // $("#navp").empty();
+
 
     for(var i=0;i<mCityList.length;i++){
         var elem = document.createElement("li");
         elem.textContent=mCityList[i];
         mainList.appendChild(elem); 
    }
-   $("#navp").empty();
-
   }
 
-
-    
   //Creating the date builder function 
   function dateBuilder (d) {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
