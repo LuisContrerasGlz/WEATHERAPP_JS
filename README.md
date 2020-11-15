@@ -9,4 +9,6 @@ The information is been retrieved from the API home.openweathermap
 
 Work based from Tyler Potts.
 
+![ Weather Application](captura.png)
+
 URL for GitHub pages: https://luiscontrerasglz.github.io/WEATHERAPP_JS/
