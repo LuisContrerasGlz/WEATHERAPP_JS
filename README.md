@@ -1,4 +1,6 @@
-User Story:
+# Weather app with JS
+
+## User Story:
 
 AS A traveler
 I WANT to see the weather outlook for multiple cities
